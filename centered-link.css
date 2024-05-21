@@ -1,0 +1,11 @@
+div:has(> p > .centeredLink) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.centeredLink {
+  text-align: center;
+}
